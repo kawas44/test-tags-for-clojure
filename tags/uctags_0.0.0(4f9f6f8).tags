@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/4f9f6f8/
+-main	src/kws/t_tags.clj	/^(defn -main$/;"	f	namespace:kws.t-tags
+^:foo	src/kws/t_tags/functions.clj	/^(defn ^:foo ^{:bar "baz"} ^String a-defn-2 [] "df2")$/;"	f	namespace:kws.t-tags.functions
+a-defn-1	src/kws/t_tags/functions.clj	/^(defn a-defn-1 [])$/;"	f	namespace:kws.t-tags.functions
+ext-meta	src/kws/t_tags/util.clj	/^(defn ext-meta [a-meta]$/;"	f	namespace:kws.t-tags.util
+kws.t-tags	src/kws/t_tags.clj	/^(ns kws.t-tags$/;"	n
+kws.t-tags.defines	src/kws/t_tags/defines.clj	/^(ns kws.t-tags.defines)$/;"	n
+kws.t-tags.functions	src/kws/t_tags/functions.clj	/^(ns kws.t-tags.functions$/;"	n
+kws.t-tags.inlines	src/kws/t_tags/inlines.clj	/^(ns kws.t-tags.inlines)$/;"	n
+kws.t-tags.interfaces	src/kws/t_tags/interfaces.clj	/^(ns kws.t-tags.interfaces)$/;"	n
+kws.t-tags.interfaces2	src/kws/t_tags/interfaces2.clj	/^(ns kws.t-tags.interfaces2$/;"	n
+kws.t-tags.internes	src/kws/t_tags/internes.clj	/^(ns kws.t-tags.internes)$/;"	n
+kws.t-tags.macros	src/kws/t_tags/macros.clj	/^(ns kws.t-tags.macros)$/;"	n
+kws.t-tags.multi-methods	src/kws/t_tags/multi_methods.clj	/^(ns kws.t-tags.multi-methods)$/;"	n
+kws.t-tags.multi-methods2	src/kws/t_tags/multi_methods2.clj	/^(ns kws.t-tags.multi-methods2$/;"	n
+kws.t-tags.namespaces	src/kws/t_tags/namespaces.clj	/^(ns kws.t-tags.namespaces)$/;"	n
+kws.t-tags.protocols	src/kws/t_tags/protocols.clj	/^(ns kws.t-tags.protocols)$/;"	n
+kws.t-tags.protocols2	src/kws/t_tags/protocols2.clj	/^(ns kws.t-tags.protocols2$/;"	n
+kws.t-tags.records	src/kws/t_tags/records.clj	/^(ns kws.t-tags.records)$/;"	n
+kws.t-tags.structs	src/kws/t_tags/structs.clj	/^(ns kws.t-tags.structs)$/;"	n
+kws.t-tags.types	src/kws/t_tags/types.clj	/^(ns kws.t-tags.types)$/;"	n
+kws.t-tags.util	src/kws/t_tags/util.clj	/^(ns kws.t-tags.util$/;"	n

@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-main	src/kws/t_tags.clj	/^(defn -main$/;"	f
+ARecord1	src/kws/t_tags/records.clj	/^(defrecord ARecord1 [a])$/;"	f
+AType1	src/kws/t_tags/types.clj	/^(deftype AType1 [a b])$/;"	f
+Interface1	src/kws/t_tags/interfaces.clj	/^(definterface Interface1$/;"	f
+Interface1Record1	src/kws/t_tags/interfaces.clj	/^(defrecord Interface1Record1 [x]$/;"	f
+Interface1Record2	src/kws/t_tags/interfaces2.clj	/^(defrecord Interface1Record2 [x]$/;"	f
+Interface2Record1	src/kws/t_tags/interfaces.clj	/^(defrecord Interface2Record1 [x]$/;"	f
+Interface2Record2	src/kws/t_tags/interfaces2.clj	/^(defrecord Interface2Record2 [x]$/;"	f
+Proto1	src/kws/t_tags/protocols.clj	/^(defprotocol Proto1$/;"	f
+Proto1Record	src/kws/t_tags/protocols.clj	/^(defrecord Proto1Record [x]$/;"	f
+Proto2Record	src/kws/t_tags/protocols2.clj	/^(defrecord Proto2Record [x]$/;"	f
+Struct1	src/kws/t_tags/structs.clj	/^(defstruct Struct1 :a :b)$/;"	f
+^:bar	src/kws/t_tags/protocols.clj	/^(defprotocol ^:bar ^{:foo "baz"} Proto2$/;"	f
+^:foo	src/kws/t_tags/functions.clj	/^(defn ^:foo ^{:bar "baz"} ^String a-defn-2 [] "df2")$/;"	f
+^:foo	src/kws/t_tags/interfaces.clj	/^(definterface ^:foo ^{:bar "baz"} Interface2$/;"	f
+^:foo	src/kws/t_tags/structs.clj	/^(defstruct ^:foo ^{:bar "baz"} Struct2 :a :b)$/;"	f
+^String	src/kws/t_tags/defines.clj	/^(def ^String ^:foo ^{:bar "baz"} a-def-2 "d2")$/;"	f
+^String	src/kws/t_tags/functions.clj	/^(defn- ^String ^{:bar "baz"} ^:foo a-defn--2 [] "df-2")$/;"	f
+^{:bar	src/kws/t_tags/defines.clj	/^(defonce ^{:bar "baz"} ^String ^:foo once-2 "o2")$/;"	f
+^{:bar	src/kws/t_tags/inlines.clj	/^(definline ^{:bar "baz"} ^String ^:foo a-definline-2 [] "di2")$/;"	f
+^{:bar	src/kws/t_tags/macros.clj	/^(defmacro ^{:bar "baz"} ^:foo ^String a-defmacro-2 [] "dm2")$/;"	f
+^{:bar	src/kws/t_tags/multi_methods.clj	/^(defmulti ^{:bar "baz"} ^:foo ^long multi2 class)$/;"	f
+^{:foo	src/kws/t_tags/records.clj	/^(defrecord ^{:foo ";baz"} ^:bar ARecord_ok [a])$/;"	f
+^{:foo	src/kws/t_tags/records.clj	/^(defrecord ^{:foo "baz"} ^:bar ARecord2 [a])$/;"	f
+a-def-1	src/kws/t_tags/defines.clj	/^(def a-def-1 "d1")$/;"	f
+a-definline-1	src/kws/t_tags/inlines.clj	/^(definline a-definline-1 [])$/;"	f
+a-defmacro-1	src/kws/t_tags/macros.clj	/^(defmacro a-defmacro-1 [])$/;"	f
+a-defn--1	src/kws/t_tags/functions.clj	/^(defn- a-defn--1 [])$/;"	f
+a-defn-1	src/kws/t_tags/functions.clj	/^(defn a-defn-1 [])$/;"	f
+ext-meta	src/kws/t_tags/util.clj	/^(defn ext-meta [a-meta]$/;"	f
+kws.t-tags.multi-methods/multi2	src/kws/t_tags/multi_methods2.clj	/^(defmethod kws.t-tags.multi-methods\/multi2 Long [_]$/;"	f
+meta-infos	src/kws/t_tags/util.clj	/^(defmacro meta-infos [sym]$/;"	f
+mm/multi1	src/kws/t_tags/multi_methods2.clj	/^(defmethod mm\/multi1 Long [i]$/;"	f
+multi1	src/kws/t_tags/multi_methods.clj	/^(defmethod multi1 String [x]$/;"	f
+multi1	src/kws/t_tags/multi_methods.clj	/^(defmulti multi1 class)$/;"	f
+multi2	src/kws/t_tags/multi_methods.clj	/^(defmethod multi2 String [x]$/;"	f
+once-1	src/kws/t_tags/defines.clj	/^(defonce once-1 "o1")$/;"	f
