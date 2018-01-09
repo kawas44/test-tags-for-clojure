@@ -4,6 +4,12 @@
 
 Provide better tags tools configuration for the Clojure language.
 
+Goals of the project are:
+- to test tools that generate or search tags on Clojure project
+- to provide optimal ways to configure those tools
+- to provide tips to editor/IDE users who want to use tags tools
+- and to lesser extent, to give tags tool creators a feedback on their Clojure support
+
 ### TL;DR
 
 - **Ctags:** Use a better Clojure language regexp extension
